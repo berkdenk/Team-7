@@ -73,5 +73,23 @@ search.addEventListener('click', () => {
 
         });
 
+        
 
 });
+
+function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const timeString = `${hours}:${minutes}`;
+    document.getElementById('clock').textContent = timeString;
+
+    const year = now.getFullYear();
+    const month = (now.getMonth() + 1).toString().padStart(2, '0');
+    const day = now.getDate().toString().padStart(2, '0');
+    const dateString = `${day}/${month}/${year}`;
+    document.getElementById('date').textContent = dateString;
+}
+
+setInterval(updateClock, 1000);
+updateClock();

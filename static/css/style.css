@@ -182,3 +182,36 @@ body{
         opacity: 1;
     }
 }
+
+.clock-container {
+    position: absolute;
+    top: 20px; /* Sayfanın üst kısmına göre ayarlayın */
+    right: 20px; /* Sağ üst köşeye hizalayın */
+    z-index: 1; /* Diğer içeriklerin üzerinde olmasını sağlar */
+}
+
+.clock{
+    display: inline-block; /* Saat ve tarih bölümlerini yan yana sıralar */
+    color: #fff; /* Yazı rengi */
+    font-size: 1.2rem; /* Yazı font büyüklüğü */
+    font-weight: bold; /* Yazı font kalınlığı */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Yazı gölgesi */
+    font-family: 'Poppins', sans-serif; /* Saat ve tarih için Poppins fontu */
+    margin-top: 5px; /* Saat ve tarih arasında biraz boşluk bırakın */
+}
+
+.date-container {
+    position: absolute;
+    bottom: 20px; /* Sayfanın alt kısmına göre ayarlayın */
+    right: 20px; /* Sağ alt köşeye hizalayın */
+    z-index: 1; /* Diğer içeriklerin üzerinde olmasını sağlar */
+}
+
+.date {
+    color: #fff; /* Yazı rengi */
+    font-size: 1.2rem; /* Yazı font büyüklüğü */
+    font-weight: bold; /* Yazı font kalınlığı */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Yazı gölgesi */
+    font-family: 'Poppins', sans-serif; /* Tarih için Poppins fontu */
+}
+
