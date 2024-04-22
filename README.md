@@ -1,24 +1,32 @@
-# WeatherApp(TEAM 7-| Kanan-Aliyev-58151||Reddy-Chettipalli-58529|-|Berktug-Denk-53228|-|Ridvan-Karli-54746|-|Samet-Kurt-57498|-|Selcuk-Assik-55982|)
-Project Name: Django Weather Application
-Description: This project is an application built using the Django framework to fetch weather information. It also provides an API.
-Key Features:
+# WeatherApp (TEAM 7-| Kanan-Aliyev-58151||Reddy-Chettipalli-58529|-|Berktug-Denk-53228|-|Ridvan-Karli-54746|-|Samet-Kurt-57498|-|Selcuk-Assik-55982|)
+
+## Project Description
+This project is an application built using the Django framework to fetch weather information. It also provides an API.
+
+## Key Features
 - Fetching weather data
 - Allowing users to optionally obtain weather information based on their locations
 - Providing a RESTful API
-API: Open Weather API
-Technologies Used: Python, Django
-Contributors:
-  Berktug Denk-53228
-  Kanan Aliyev-58151
-  Reddy Chettipalli-58529
-  Ridvan Karli-54746
-  Samet Kurt-57498
-  Selcuk Assik-55982
 
-  
-Setup Steps (terminal command):
-  -git clone https://github.com/berkdenk/Team-7.git  
-  -cd .\WeatherApplication\ 
-  -py manage.py runserver
+## API
+Open Weather API
 
-Installation : git clone https://github.com/berkdenk/Team-7.git  
+## Technologies Used
+- Python
+- Django
+
+## Contributors
+- Berktug Denk-53228
+- Kanan Aliyev-58151
+- Reddy Chettipalli-58529
+- Ridvan Karli-54746
+- Samet Kurt-57498
+- Selcuk Assik-55982
+
+## Setup Steps (Terminal Commands)
+git clone https://github.com/berkdenk/Team-7.git  
+cd .\WeatherApplication\  
+py manage.py runserver
+
+## Installation
+[Projenin GitHub deposunu klonlamak için bu bağlantıyı kullanın](https://github.com/berkdenk/Team-7.git)
