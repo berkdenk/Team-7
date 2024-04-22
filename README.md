@@ -29,4 +29,4 @@ cd .\WeatherApplication\
 py manage.py runserver
 
 ## Installation
-[Projenin GitHub deposunu klonlamak için bu bağlantıyı kullanın](https://github.com/berkdenk/Team-7.git)
+git clone https://github.com/berkdenk/Team-7.git  
