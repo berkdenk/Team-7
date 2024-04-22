@@ -17,8 +17,8 @@ Contributors:
 
   
 Setup Steps (terminal command):
-  1-git clone https://github.com/berkdenk/Team-7.git  
-  2-cd .\WeatherApplication\ 
-  3-py manage.py runserver
+  -git clone https://github.com/berkdenk/Team-7.git  
+  -cd .\WeatherApplication\ 
+  -py manage.py runserver
 
 Installation : git clone https://github.com/berkdenk/Team-7.git  
