@@ -29,4 +29,6 @@ cd .\WeatherApplication\
 py manage.py runserver
 
 ## Installation
-git clone https://github.com/berkdenk/Team-7.git  
+[![Clone Repository](https://img.shields.io/badge/Clone%20Repository-green?style=flat-square&logo=github)](https://github.com/berkdenk/Team-7.git)
+git clone https://github.com/berkdenk/Team-7.git
+
